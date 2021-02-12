@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/user/lisboabh/homedir/E4/HPC_3/tp1/function.h
+stdio.h
+-
+sys/types.h
+-
+stdlib.h
+-
+stdint.h
+-
+ctype.h
+-
+math.h
+-
+
+/user/lisboabh/homedir/E4/HPC_3/tp1/main.c
+stdio.h
+-
+sys/types.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+omp.h
+/user/lisboabh/homedir/E4/HPC_3/tp1/omp.h
+function.h
+/user/lisboabh/homedir/E4/HPC_3/tp1/function.h
+
