@@ -22,6 +22,7 @@ typedef unsigned char uint8;
 // function declarations
 float * readimg(char *, int *, int *, int *);
 void writeimg(char *, float *, int , int, int);
-void f(float *, float ,int size );
+void f(float *, float ,int  );
+void f2(float **, float ,int  );
 #endif
 
